@@ -4,14 +4,18 @@ import App from './App.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './index.css';
+import Home from './Home.jsx';
+import About from './About.jsx';
 
 const router = createBrowserRouter(
   [
     {
       path: '/',
-      element: <div>Hello world!</div>,
+      element: <Home></Home>,
     },
     { path: '/app', element: <App /> },
+    { path: '/about', element: <About /> },
+    { path: '/contact', element: <App /> },
   ],
   { basename: '/app3' }
 );
