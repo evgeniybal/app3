@@ -8,11 +8,7 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+      <div></div>
       <h1>Vite + React3!!!</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
