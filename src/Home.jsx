@@ -5,10 +5,7 @@ export default function Home() {
   return (
     <div>
       <nav>
-        <ul id="navigation">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
+        <ul id="navigation" style={{ listStyle: 'none' }}>
           <li>
             <Link to="/about">About</Link>
           </li>
