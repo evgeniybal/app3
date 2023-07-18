@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
@@ -24,6 +24,11 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quos
+        quisquam, quod repellat pariatur quis! Pariatur ullam ipsa quo, eum modi
+        saepe, corrupti iusto ut aspernatur magnam odio minus cupiditate!
       </p>
     </>
   );
